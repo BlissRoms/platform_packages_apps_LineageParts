@@ -17,6 +17,7 @@
 
 package org.lineageos.lineageparts.gestures;
 
+import android.app.StatusBarManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -49,6 +50,7 @@ import android.util.SparseIntArray;
 import android.view.KeyEvent;
 
 import com.android.internal.os.DeviceKeyHandler;
+import com.android.server.statusbar.StatusBarManagerInternal;
 
 import lineageos.providers.LineageSettings;
 
@@ -70,6 +72,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private final EventHandler mEventHandler;
     private final CameraManager mCameraManager;
     private final Vibrator mVibrator;
+    private StatusBarManagerInternal mStatusBarManagerInternal;
 
     private final SparseIntArray mActionMapping = new SparseIntArray();
     private final boolean mProximityWakeSupported;
@@ -250,9 +253,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private void launchCamera() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-        final Intent intent = new Intent(lineageos.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
-        mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT,
-                Manifest.permission.STATUS_BAR_SERVICE);
+        mStatusBarManagerInternal.onCameraLaunchGestureDetected(
+                StatusBarManager.CAMERA_LAUNCH_SOURCE_SCREEN_GESTURE);
         doHapticFeedback();
     }
 
