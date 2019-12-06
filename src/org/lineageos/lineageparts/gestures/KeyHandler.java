@@ -17,9 +17,11 @@
 
 package org.lineageos.lineageparts.gestures;
 
+import android.app.StatusBarManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
@@ -250,9 +252,11 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private void launchCamera() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-        final Intent intent = new Intent(lineageos.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
-        mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT,
-                Manifest.permission.STATUS_BAR_SERVICE);
+        Intent i = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE_SECURE);
+        PackageManager pm = mContext.getPackageManager();
+        final ResolveInfo mInfo = pm.resolveActivity(i, 0);
+        Intent intent = new Intent().setComponent(new ComponentName(mInfo.activityInfo.packageName,
+                mInfo.activityInfo.name));
         doHapticFeedback();
     }
 
