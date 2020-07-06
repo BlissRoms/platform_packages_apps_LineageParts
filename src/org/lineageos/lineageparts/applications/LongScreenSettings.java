@@ -338,13 +338,20 @@ public class LongScreenSettings extends SettingsPreferenceFragment
         @Override
         public void init() {}
 
+        private final String[] hideApps = {"com.android.settings", "com.android.documentsui",
+            "com.android.fmradio", "com.caf.fmradio", "com.android.stk",
+            "com.google.android.calculator", "com.google.android.calendar",
+            "com.google.android.deskclock", "com.google.android.contacts",
+            "com.google.android.apps.messaging", "com.google.android.googlequicksearchbox",
+            "com.android.vending", "com.google.android.dialer",
+            "com.google.android.apps.wallpaper", "com.google.android.as"};
+
         @Override
         public boolean filterApp(ApplicationsState.AppEntry entry) {
             boolean show = !mAllPackagesAdapter.mEntries.contains(entry.info.packageName);
             if (show) {
                 synchronized (mLauncherResolveInfoList) {
-                    show = mLauncherResolveInfoList.contains(entry.info.packageName) &&
-                            entry.info.targetSdkVersion < Build.VERSION_CODES.O;
+                    show = mLauncherResolveInfoList.contains(entry.info.packageName) && !Arrays.asList(hideApps).contains(entry.info.packageName);
                 }
             }
             return show;
