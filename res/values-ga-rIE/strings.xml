@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -105,7 +105,7 @@
     <string name="live_display_low_power_summary">Coigeartaigh taispeáint don tomhaltas cumhachta is ísle gan díghrádú</string>
     <string name="live_display_enhance_color_title">Feabhas a chur ar dathanna</string>
     <string name="live_display_enhance_color_summary">Feabhas a chur ar bheocht datha toin feola, radharcra agus íomhánna eile</string>
-    <string name="live_display_color_profile_title">Próifíl datha</string>
+    <string name="live_display_color_profile_preview">Réamhamharc datha</string>
     <string name="live_display_color_profile_standard_title">Caighdeán</string>
     <string name="live_display_color_profile_standard_summary">Dathanna beacht agus bánna geala</string>
     <string name="live_display_color_profile_natural_title">Nádúrtha</string>
@@ -399,6 +399,8 @@
     <string name="network_traffic_position_title">Seasamh</string>
     <string name="network_traffic_autohide">Folaigh uathoibríoch</string>
     <string name="network_traffic_autohide_summary">Folaigh an monatóir tráchta nuair nach bhfuil aon ghníomhaíocht ann</string>
+    <string name="network_traffic_hide_arrows">Folaigh saigheada</string>
+    <string name="network_traffic_hide_arrows_summary">Folaigh saigheada treorach uaslódála agus íoslódála</string>
     <string name="network_traffic_units_title">Aonaid tomhais tráchta</string>
     <string name="network_traffic_units_kilobits">Cilibítí in aghaidh an tsoicind (kbit/s).</string>
     <string name="network_traffic_units_megabits">Meigighiotáin in aghaidh an tsoicind (Mb/s)</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -105,7 +105,6 @@
     <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de batería sin degradación</string>
     <string name="live_display_enhance_color_title">Mejorar colores</string>
     <string name="live_display_enhance_color_summary">Mejorar la viveza del color de tonos de piel, paisajes y otras imágenes</string>
-    <string name="live_display_color_profile_title">Perfil de color</string>
     <string name="live_display_color_profile_standard_title">Estándar</string>
     <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
@@ -398,6 +397,8 @@
     <string name="network_traffic_position_title">Posición</string>
     <string name="network_traffic_autohide">Ocultar automáticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad</string>
+    <string name="network_traffic_hide_arrows">Ocultar flechas</string>
+    <string name="network_traffic_hide_arrows_summary">Ocultar flechas de subida y bajada de datos</string>
     <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
     <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
     <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
@@ -416,11 +417,13 @@
     <string name="contributors_cloud_loading_message">Cargando datos de colaboradores\u2026</string>
     <string name="contributors_cloud_failed_message">No se pueden cargar los datos de colaboradores</string>
     <string name="contributor_info_menu">Información del colaborador</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Nombre:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><![CDATA[
+<b>Nombre:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Apodo:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
                  <b>Contribuciones:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
     <string name="contributions_info_menu">Información de las contribuciones</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Contribuyentes totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><![CDATA[
+<b>Contribuyentes totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Contribuciones totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Última actualización:</b> <xliff:g id="date">%3$s</xliff:g>>]]></string>
     <string name="anonymous_statistics_title">Estadísticas Bliss</string>

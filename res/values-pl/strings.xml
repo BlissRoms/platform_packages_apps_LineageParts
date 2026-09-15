@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -105,7 +105,7 @@
     <string name="live_display_low_power_summary">Dostosuj sposób wyświetlania do najniższego zużycia energii bez utraty jakości</string>
     <string name="live_display_enhance_color_title">Wzmocnienie kolorów</string>
     <string name="live_display_enhance_color_summary">Popraw odczucie kolorów skóry, scenerii oraz innych obrazów</string>
-    <string name="live_display_color_profile_title">Profil kolorów</string>
+    <string name="live_display_color_profile_preview">Podgląd koloru</string>
     <string name="live_display_color_profile_standard_title">Standardowe</string>
     <string name="live_display_color_profile_standard_summary">Dokładne odwzorowanie kolorów i jasności bieli</string>
     <string name="live_display_color_profile_natural_title">Naturalne</string>
@@ -163,7 +163,7 @@
     <string name="hardware_keys_action_sleep">Wyłączanie ekranu</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
     <string name="hardware_keys_action_split_screen">Podziel ekran</string>
-    <string name="hardware_keys_action_kill_app">Zamykanie aplikacji</string>
+    <string name="hardware_keys_action_kill_app">Zakończ aktywną aplikację</string>
     <string name="camera_sleep_on_release_title">Podgląd ekranu</string>
     <string name="camera_sleep_on_release_summary">Lekkie naciśnięcie aktywuje ekran tylko do czasu zwolnienia przycisku</string>
     <string name="camera_launch_title">Włącz aparat</string>
@@ -399,6 +399,8 @@
     <string name="network_traffic_position_title">Położenie</string>
     <string name="network_traffic_autohide">Autoukrywanie</string>
     <string name="network_traffic_autohide_summary">Ukryj monitor ruchu, przy braku aktywności</string>
+    <string name="network_traffic_hide_arrows">Ukrywaj strzałki transferu</string>
+    <string name="network_traffic_hide_arrows_summary">Ukrywaj strzałki kierunku wysyłania i pobierania danych</string>
     <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
     <string name="network_traffic_units_kilobits">Kilobity na sekundę (kb/s)</string>
     <string name="network_traffic_units_megabits">Megabity na sekundę (Mb/s)</string>
@@ -416,7 +418,7 @@
     <string name="contributors_cloud_fragment_title">Twórcy</string>
     <string name="contributors_cloud_loading_message">Wczytywanie danych o twórcach\u2026</string>
     <string name="contributors_cloud_failed_message">Nie można wczytać danych o twórcach</string>
-    <string name="contributor_info_menu">Informacje o twórcach</string>
+    <string name="contributor_info_menu">Informacje o twórcy</string>
     <string name="contributor_info_msg"><![CDATA[<b>Nazwa:</b><xliff:g id="name"></xliff:g><br/><br/> 
                  <b>Pseudonim:</b><xliff:g id="nick">%2$s</xliff:g><br/><br/>
                  <b>Poprawki:</b><xliff:g id="commits">%3$s</xliff:g>]]></string>
