@@ -164,6 +164,7 @@
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
     <string name="hardware_keys_action_split_screen">Podziel ekran</string>
     <string name="hardware_keys_action_kill_app">Zakończ aktywną aplikację</string>
+    <string name="hardware_keys_action_cycle_ringer_mode">Tryb dzwonka cyklicznego</string>
     <string name="camera_sleep_on_release_title">Podgląd ekranu</string>
     <string name="camera_sleep_on_release_summary">Lekkie naciśnięcie aktywuje ekran tylko do czasu zwolnienia przycisku</string>
     <string name="camera_launch_title">Włącz aparat</string>
@@ -340,7 +341,7 @@
     <string name="notification_volume_title">Powiadomienie</string>
     <string name="media_volume_title">Multimedia</string>
     <string name="alarm_volume_title">Alarm</string>
-    <string name="doze_title">Ekran Ambient</string>
+    <string name="doze_title">Ekran aktywny</string>
     <string name="status_bar_title">Pasek stanu</string>
     <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s krawędź ekranu rozwija Szybkie Ustawienia</string>
@@ -506,7 +507,7 @@
     <string name="touchscreen_gesture_action_next_track">Przejdź do następnego utworu muzycznego</string>
     <string name="touchscreen_gesture_action_volume_down">Mniejsza głośność multimediów</string>
     <string name="touchscreen_gesture_action_volume_up">Większa głośność multimediów</string>
-    <string name="touchscreen_gesture_action_ambient_display">Pokazuj Ekran Ambient</string>
+    <string name="touchscreen_gesture_action_ambient_display">Pokazuj Ekran aktywny</string>
     <string name="trust_category_features">Status</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Restrykcyjny</string>

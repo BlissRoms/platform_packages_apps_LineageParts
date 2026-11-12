@@ -78,7 +78,7 @@
     <string name="notification_light_advanced_title">Avançadas</string>
     <string name="notification_light_applist_title">Aplicações</string>
     <string name="notification_light_phonelist_title">Telefone</string>
-    <string name="notification_light_use_custom">Utilizar valores personalizados</string>
+    <string name="notification_light_use_custom">Usar valores personalizados</string>
     <string name="notification_light_default_value">Padrão</string>
     <string name="notification_light_missed_call_title">Chamada perdida</string>
     <string name="notification_light_voicemail_title">Correio de voz</string>
@@ -164,6 +164,7 @@
     <string name="hardware_keys_action_last_app">Última aplicação</string>
     <string name="hardware_keys_action_split_screen">Dividir ecrã</string>
     <string name="hardware_keys_action_kill_app">Fechar aplicação em primeiro plano</string>
+    <string name="hardware_keys_action_cycle_ringer_mode">Ciclo do modo de toque</string>
     <string name="camera_sleep_on_release_title">Apresentação rápida</string>
     <string name="camera_sleep_on_release_summary">Pressionar até metade irá manter o ecrã ligado apenas enquanto o botão estiver pressionado</string>
     <string name="camera_launch_title">Iniciar a câmara</string>

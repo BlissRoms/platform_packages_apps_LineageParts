@@ -164,6 +164,7 @@
     <string name="hardware_keys_action_last_app">מעבר ליישום אחרון</string>
     <string name="hardware_keys_action_split_screen">פיצול מסך</string>
     <string name="hardware_keys_action_kill_app">סגירת יישום נוכחי</string>
+    <string name="hardware_keys_action_cycle_ringer_mode">מעבר בין מצבי צלצול</string>
     <string name="camera_sleep_on_release_title">הצצה למסך (התראות ידליקו את המסך)</string>
     <string name="camera_sleep_on_release_summary">לחיצה חלקית תשאיר את המסך פעיל כל עוד המקש לחוץ</string>
     <string name="camera_launch_title">הפעל מצלמה</string>
@@ -189,7 +190,7 @@
     <string name="extras_title">תוספות</string>
     <string name="additional_buttons_title">מקשים נוספים</string>
     <string name="click_partial_screenshot_title">לחיצה לצילום מסך חלקי</string>
-    <string name="click_partial_screenshot_summary">לחיצה קצרה על כפתור ההדלקה והנמכת הקול יחדיו לצילום מסך חלקי</string>
+    <string name="click_partial_screenshot_summary">לחיצה קצרה על לחצן ההפעלה והנמכת הקול יחדיו לצילום מסך חלקי</string>
     <string name="button_backlight_title">תאורה אחורית</string>
     <string name="button_backlight_enabled">האר מקשים</string>
     <string name="button_backlight_only_when_pressed_title">האר את המקשים רק כאשר נוגעים בהם</string>
